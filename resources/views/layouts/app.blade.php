@@ -9,7 +9,6 @@
 
     <body>
         <nav class = "NavBar">
-
             <ul>
                 <li class="{{ Request::is('/') ? 'active' : '' }}"><a href={{ url('/') }}>Home</a></i>
             </ul>
